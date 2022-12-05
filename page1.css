@@ -1,0 +1,11 @@
+.slidershow {
+    width: 90%;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slidershow img {
+    width: 76%;
+    margin-left: 13%;
+}

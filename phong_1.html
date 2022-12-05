@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LIVING ROOM</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="page2.css" />
+        <link rel="stylesheet" href="TempHum.css" />
+    </head>
+    <body id="phong_khach">
+        <div id="header">
+            <ul id="inf">
+                <div>Home Automation</div>
+            </ul>
+        </div>
+        <div class="go_back">
+            <a href="main.html">
+                <img src="img/go_back_2.jpg" alt="" style="width: 10%" />
+            </a>
+        </div>
+        <div class="Temp">
+            <div class="container">
+                <div class="card temp">
+                    <div class="inner">
+                        <div class="icon"></div>
+                        <div class="title">
+                            <div class="text">TEMPERATURE</div>
+                        </div>
+                        <div class="setting">
+                            <h2><span id="nhietdo">30</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="card energy">
+                    <div class="inner">
+                        <div class="icon"></div>
+                        <div class="title">
+                            <div class="text">HUMI</div>
+                        </div>
+                        <div class="setting">
+                            <h2><span id="doam">00</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="card gas">
+                    <div class="inner">
+                        <div class="icon"></div>
+                        <div class="title">
+                            <div class="text">Air</div>
+                        </div>
+                        <div class="setting">
+                            <h2><span id="khigas">00</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img
+            id="denId_01"
+            class="card-img-top"
+            src="/img/quat_off.jpg"
+            alt="Card image"
+            style="width: 10%"
+        />
+        <div id="bt01">
+            <button id="btnOnId_01">ON</button>
+            <button id="btnOffId_01">OFF</button>
+        </div>
+        <!--  -->
+        <img
+            id="denId_02"
+            class="card-img-top"
+            src="/img/light_bulb_off.png"
+            alt="Card image"
+            style="width: 10%"
+            style="text-align: right"
+        />
+        <div id="bt02">
+            <button id="btnOnId_02">ON</button>
+            <button id="btnOffId_02">OFF</button>
+        </div>
+        <!--  -->
+        <img
+            id="denId_03"
+            class="card-img-top"
+            src="./img/light_bulb_off.png"
+            alt="Card image"
+            style="width: 10%"
+            style="text-align: right"
+        />
+        <div id="bt03">
+            <button id="btnOnId_03">ON</button>
+            <button id="btnOffId_03">OFF</button>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+        <script src="phong_1.js"></script>
+        <div id="end_page">
+            <div>Phạm Hữu Đạt 19161090</div>
+            <div>Hồ Khánh Bình 19161021</div>
+            <div>Nguyễn Vưu Huy Hoàng 19161110</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,112 @@
+#phong_khach {
+    background-repeat: no-repeat;
+    background-image: url("img/img1.jpg");
+    background-size: 60% auto;
+    display: flex;
+    justify-content: space-around;
+    background-position-x: 300px;
+    background-position-y: 180px;
+}
+.card-img-top {
+    border-color: white;
+    border-style: solid;
+    border-radius: 90px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px 0px;
+}
+/* Phong khách */
+#denId_01 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+#denId_02 {
+    position: absolute;
+    top: 10%;
+    right: 65%;
+}
+#denId_03 {
+    position: absolute;
+    top: 10%;
+    right: 30%;
+}
+
+#bt01 {
+    position: absolute;
+    top: 35%;
+    left: 7%;
+}
+#bt02 {
+    position: absolute;
+    top: 35%;
+    left: 27%;
+}
+#bt03 {
+    position: absolute;
+    top: 35%;
+    left: 62%;
+}
+.Temp {
+    padding-left: 52%;
+    font-size: 22px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* //////////////////////// */
+#btnOnId_03,
+#btnOnId_02,
+#btnOnId_01 {
+    border-radius: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2);
+    font-weight: 600;
+}
+#btnOffId_03,
+#btnOffId_02,
+#btnOffId_01 {
+    border-radius: 50px;
+    box-shadow: rgba(7, 225, 47, 0.919);
+    font-weight: 600;
+}
+.go_back {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    padding: 10px 0px 10px 0px;
+}
+#header {
+    top: 0;
+    height: 58px;
+    width: 100%;
+    background-color: #1697c5;
+    position: absolute;
+    border-style: solid;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 4px;
+    border-color: rgb(77, 74, 74);
+}
+#inf {
+    margin-top: 0%;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 600;
+}
+#end_page {
+    top: 92.2%;
+    height: 58px;
+    width: 100%;
+    border-style: solid;
+    background-color: antiquewhite;
+    position: absolute;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 14px;
+    border-top-width: 4px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-color: rgb(77, 74, 74);
+    color: rgb(209, 99, 20);
+    font-weight: 200;
+}
